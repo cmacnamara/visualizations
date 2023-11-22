@@ -20,20 +20,12 @@ const BarChartPage = () => {
 
   return (  
     <div style={{ textAlign: "center" }}>
-        <h1>REACTJS CSV IMPORT EXAMPLE </h1>
+        <h1>Bar Chart Example</h1>
           <input 
             type={"file"} 
             accept={".csv"} 
             onChange={handleOnChange}
           />
-
-          <button
-            onClick={() => {
-              console.log(barChartData)
-            }}
-          >
-            Check data
-          </button>
 
           {barChartData.length ?
             <DataViz 

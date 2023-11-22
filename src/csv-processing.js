@@ -30,7 +30,7 @@ export const createScatterPlotData = (rawData, xaxis, yaxis) => {
       label: `${xaxis}: ${person[xaxis]} | ${yaxis}: ${person[yaxis]}`,
       x: parseFloat(person[xaxis]),
       y: parseFloat(person[yaxis]),
-      fill: 'blue' 
+      fill: 'white' 
     }]
   })
 

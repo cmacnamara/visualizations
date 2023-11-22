@@ -15,7 +15,7 @@ const NavBar = () => {
 
   return (
     <nav className={styles.navContainer}>
-      <NavLink id={styles.links} to={`/`}>Home</NavLink>
+      <NavLink id={styles.links} to={`/`}><span className={styles.home}>Home</span></NavLink>
       {publicLinks}
     </nav>
   )
